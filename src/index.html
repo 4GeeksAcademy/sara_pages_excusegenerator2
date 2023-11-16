@@ -3,27 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
+    <title>Excuse Generator 2</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXlrZ9I9tko4qX/QlL7kv4P3e0BywtP2I3p6+p6jcFq"
+      crossorigin="anonymous"
+    />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
       integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
       crossorigin="anonymous"
     />
+
     <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
-  <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
-      </div>
+
+  <body
+    onload="excuseGenerator()"
+      
+    <div class="container-fluid text-center bg-light">
+      <h1 class="mt-5 fs-2">OMG! you will not believe me but...</h1>
+      <p id="excuse" class="mt-4 fs-2"></p>
     </div>
+
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"
+      integrity="sha384-+0r6txA1DaGNByV+G5PBYaJNwlkKZz9h/tCC5ABmE0zv+suEW0piY7O3U0CK/w6T"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="app.js"></script>
+
   </body>
 </html>
